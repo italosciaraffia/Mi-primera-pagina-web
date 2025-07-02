@@ -170,12 +170,13 @@
       }]
     };
 
-    myChart.setOption(option);
+    <section id="datos" style="padding: 20px; text-align: center;">
+  <h3>📊 Descarga tus datos</h3>
+  <ul style="list-style: none; padding: 0;">
+    <li><a href="base_datos/01_conteo_simple.xlsx" download>01_conteo_simple.xlsx</a></li>
+    <li><a href="base_datos/02_conteo-dias_cama.xlsx" download>02_conteo-dias_cama.xlsx</a></li>
+    <li><a href="base_datos/Base_Camas_limpia.xlsx" download>Base_Camas_limpia.xlsx</a></li>
+  </ul>
+</section>
 
-    // URL actual
-    const a = document.getElementById('current-url');
-    a.href = window.location.href;
-    a.textContent = window.location.href;
-  </script>
-</body>
-</html>
+http://127.0.0.1:5500/docs/index.html
